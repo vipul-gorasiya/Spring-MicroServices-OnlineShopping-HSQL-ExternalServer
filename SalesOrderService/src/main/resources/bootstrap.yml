@@ -1,0 +1,16 @@
+spring:
+  profiles:
+    active: development
+  application:
+    name: SalesOrder-Service
+  cloud:
+    config:
+      uri: http://localhost:5055
+  datasource:
+    url: jdbc:hsqldb:hsql://localhost/
+    username: SA
+    password: 
+    driver-class-name: org.hsqldb.jdbcDriver
+  main:
+    allow-bean-definition-overriding: true
+      
